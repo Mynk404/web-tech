@@ -83,3 +83,86 @@ header{
     display: inline;
 
 }
+#models{
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-US.png");
+    height: 620px;
+}
+#cybertruck{
+    background-image: url("https://digitalassets.tesla.com/discovery-tesla-com/image/upload/f_auto,q_auto/Homepage-Cybertruck-Desktop.jpg");
+    height: 620px;
+}
+.cyberdes>svg{
+    height: 200px;
+    width: 400px;
+    
+}
+.cyberbtn>button{
+    width: 270px;
+    height: 40px;
+    margin-top: 350px;
+    border: none;
+    margin-left: 6px;
+    margin-right: 6px;
+    font-size: 11px;
+    font-weight: bolder;
+    background-color: rgb(16,16,16);
+    color: rgb(148,149,152);
+}
+#cyberbutt1{
+    border-top: 3px solid rgb(148,149,152);
+}
+#cyberbutt2{
+    border: 1px solid rgb(148,149,152);
+}
+#solarpanel{
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-SolarPanels-01-Desktop");
+    height: 570px;
+}
+#solarroof{
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-SolarRoof-Desktop-US.png");
+    height: 570px;
+}
+#powerwall{
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Powerwall-Desktop-US.png");
+    height: 570px;
+}
+#accessories{
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Accessories-Desktop-US.png");
+    height: 660px;
+}
+#bluebuttac{
+    background-color: rgb(62,106,225);
+    color: white;
+    margin-top: 520px;
+}
+.black{
+    background-color: black;
+    color: white;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+
+}
+.blk{
+    width: 660px;
+    text-align:center;
+}
+.blk>p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 50px;
+    font-size: 12px;
+}
+.last{
+    background-color: black;
+    color: white;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 400px;
+    font-weight: bold;
+    
+}
+button{
+    cursor: grab;
+}
